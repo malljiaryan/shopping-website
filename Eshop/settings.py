@@ -122,3 +122,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = "/image/download/"
 MEDIA_ROOT = BASE_DIR
+
+import django_heroku
+django_heroku.settings(locals())
